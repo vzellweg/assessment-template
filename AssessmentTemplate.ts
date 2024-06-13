@@ -105,6 +105,10 @@ export type ExtrudeToPlaneFunction = (
   args: ExtrudeToPlaneArgs,
 ) => ExtrudeResult;
 
+/**
+ * Exercise: Given three points A, B and C, find the point on line segment
+ * AB that is nearest to C.
+ */
 export function nearestPointOnLineSegment(
   A: Point2D,
   B: Point2D,
