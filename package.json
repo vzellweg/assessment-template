@@ -1,0 +1,19 @@
+{
+  "name": "scanifly-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.165.0",
+    "prettier": "^3.3.2",
+    "ts-jest": "^29.1.4"
+  },
+  "dependencies": {
+    "three": "^0.165.0"
+  }
+}
